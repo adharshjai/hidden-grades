@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Hidden Grades for Canvas",
+  "version": "1.0.0",
+  "description": "Fills in the --% dashboard grade for courses that hide the total, calculated from your own assignment scores and group weights.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://canvas.vt.edu/*", "https://*.instructure.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
