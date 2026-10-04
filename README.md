@@ -1,6 +1,6 @@
 # Hidden Grades for Canvas
 
-A small Chrome extension that works on top of [BetterCampus](https://www.better-campus.com/). Some Canvas courses hide the overall grade, so BetterCampus shows `--%` on the dashboard card even though every assignment score and group weight is visible. This fills that badge in with the grade calculated from your own scores.
+A small Chrome extension that works on top of BetterCampus. Some Canvas courses hide the overall grade, so BetterCampus shows `--%` on the dashboard card even though every assignment score and group weight is visible. This fills that badge in with the grade calculated from your own scores.
 
 ## How it works
 
